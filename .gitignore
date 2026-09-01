@@ -1,0 +1,21 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Keep raw data local; see data/README.md for the public source.
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.zip
+
+# Tableau packaged workbooks may embed the full source dataset.
+# Keep the local workbook private; publish previews and the Tableau Public link.
+tableau/*.twbx
+
+# Generated artifacts
+data/processed/*.csv
+data/processed/*.db
+outputs/tables/*.csv
+outputs/tables/**/*.csv
